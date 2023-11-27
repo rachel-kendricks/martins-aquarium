@@ -1,0 +1,133 @@
+/* main div */
+.body-content {
+    display: flex;
+   flex-direction: column;
+}
+
+/* row divs */
+.travel-harvesting {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.tank-fish {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* heading divs */
+.travel-tips {
+  margin: 10px;
+  /* width: 600px; */
+}
+
+.fish-harvesting-locations {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fish-tank-care-tips {
+    margin: 10px;
+    width: 700px;
+}
+
+.fish {
+    margin: 10px;
+    width: 875px;
+}
+
+/* harvesting location elements */
+.harvesting-areas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.area {
+    margin: 10px;
+    width: 425px;
+    text-align: center;
+}
+
+.harvest-img {
+    width: 350px;
+}
+/* fish list elements */
+.fish-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fish-list-item {
+    margin: 10px;
+    padding: 7px; 
+    border: solid 3px #30332eff;
+    border-radius: 7px;
+    width: 250px;
+    text-align: center;
+}
+
+.fish-img {
+    width: 200px;
+}
+
+/* --dun: #dbcfb0ff;
+--carolina-blue: #6daedbff;
+--old-rose: #b98389ff;
+--rich-black: #07090fff;
+--black-olive: #30332eff; */
+
+body {
+    background-color: #FAF9F6;
+}
+
+h1 {
+color: #dbcfb0ff;
+text-shadow: 0px 0px 10px #30332eff;
+}
+
+h2 {
+    background-color: #07090fff;
+    color: #dbcfb0ff;
+    padding: 10px 25px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: #07090fff
+}
+
+h3 {
+    color: #6daedbff;
+}
+
+h4 {
+color: #30332eff;
+}
+
+.fish-species {
+background-color: #30332eff;
+color: #dbcfb0ff;
+width: 178px;
+border-radius: 7px;
+text-align: center;
+padding: 5px 10px; 
+}
+
+header {
+background-image: url('/images/aquarium-gif.gif');
+background-size: cover;
+padding: 40px 30px 15px;
+display: flex;
+flex-direction: row;
+align-content: center;
+}
